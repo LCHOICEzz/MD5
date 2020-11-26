@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/zouyuchi/CLionProjects/MD5/main.c
+md5.h
+/Users/zouyuchi/CLionProjects/MD5/md5.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
+/Users/zouyuchi/CLionProjects/MD5/md5.c
+md5.h
+/Users/zouyuchi/CLionProjects/MD5/md5.h
+string.h
+-
+
+/Users/zouyuchi/CLionProjects/MD5/md5.h
+
